@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .md{
+            border: 2px solid black;
+            width: 20px;
+        }
+        .md div{
+            border: 2px solid black;
+            margin: 5px;
+        }
+        ul{
+            display: none;
+        }
+        .md:hover ~ ul{
+            display: block;
+         
+        }
+        h1{
+            text-shadow: 5px 10px 2px red;
+        }
+        .box{
+            border: 3px solid black;
+            width: 100px;
+            box-shadow: 5px 5px 5px  rgb(196, 18, 18);
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="md">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <ul>
+        <li>MENU</li>
+        <li>CONTACT US</li>
+        <li>LOGIN</li>
+        <li>SINGUP</li>
+    </ul>
+</body>
+</html>
